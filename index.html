@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Landing page de una tienda de autos con ofertas destacadas, galería y contacto.">
+	<title>AutoPrime | Tienda de Autos</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+	<header class="site-header" id="inicio">
+		<nav class="navbar" aria-label="Navegación principal">
+			<a class="brand" href="#inicio" aria-label="AutoPrime, volver al inicio">
+				<span class="brand-mark" aria-hidden="true">AP</span>
+				<span>AutoPrime</span>
+			</a>
+			<ul class="nav-links">
+				<li><a href="#inicio">Home</a></li>
+				<li><a href="#ofertas">Ofertas</a></li>
+				<li><a href="#galeria">Galería</a></li>
+				<li><a href="#contacto">Contacto</a></li>
+			</ul>
+		</nav>
+
+		<section class="hero" aria-labelledby="hero-title">
+			<p class="eyebrow">Tienda premium de autos deportivos</p>
+			<h1 id="hero-title">Tu Nombre y Apellido</h1>
+			<p class="hero-text">
+				Encuentra modelos exclusivos, asesoría personalizada y una experiencia de compra
+				diseñada para quienes buscan rendimiento, diseño y confianza.
+			</p>
+			<div class="hero-actions">
+				<a class="button button-primary" href="#ofertas">Ver ofertas</a>
+				<a class="button button-secondary" href="#galeria">Explorar galería</a>
+			</div>
+		</section>
+	</header>
+
+	<main id="contenido">
+		<section class="section" id="ofertas" aria-labelledby="ofertas-title">
+			<div class="section-heading">
+				<p class="section-kicker">Promociones destacadas</p>
+				<h2 id="ofertas-title">Ofertas de la semana</h2>
+				<p>Modelos seleccionados con precios competitivos, pensados para destacar en rendimiento y presencia.</p>
+			</div>
+
+			<div class="cards-grid cards-grid-offers">
+				<article class="card offer-card">
+					<img src="images/lambo%20aventador.png" alt="Lamborghini Aventador color amarillo en vista frontal" loading="lazy">
+					<div class="card-body">
+						<p class="card-tag">Superdeportivo</p>
+						<h3>Lamborghini Aventador</h3>
+						<p class="card-price">Desde $420.000.000</p>
+					</div>
+				</article>
+
+				<article class="card offer-card">
+					<img src="images/lambo%20huracan.png" alt="Lamborghini Huracán color blanco en vista lateral" loading="lazy">
+					<div class="card-body">
+						<p class="card-tag">Edición especial</p>
+						<h3>Lamborghini Huracán</h3>
+						<p class="card-price">Desde $355.000.000</p>
+					</div>
+				</article>
+
+				<article class="card offer-card">
+					<img src="images/nissan%20gtr.png" alt="Nissan GTR color plateado sobre fondo urbano" loading="lazy">
+					<div class="card-body">
+						<p class="card-tag">Rendimiento puro</p>
+						<h3>Nissan GTR</h3>
+						<p class="card-price">Desde $185.000.000</p>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<section class="section gallery-section" id="galeria" aria-labelledby="galeria-title">
+			<div class="section-heading">
+				<p class="section-kicker">Galería</p>
+				<h2 id="galeria-title">Nuestra colección</h2>
+				<p>Explora los modelos disponibles con una vista clara y ordenada en una grilla accesible.</p>
+			</div>
+
+			<div class="gallery-grid">
+				<figure class="gallery-item">
+					<img src="images/lambo%20aventador.png" alt="Lamborghini Aventador amarillo" loading="lazy">
+				</figure>
+				<figure class="gallery-item">
+					<img src="images/lambo%20huracan.png" alt="Lamborghini Huracán blanco" loading="lazy">
+				</figure>
+				<figure class="gallery-item">
+					<img src="images/nissan%20gtr.png" alt="Nissan GTR plateado" loading="lazy">
+				</figure>
+				<figure class="gallery-item">
+					<img src="images/nissan%20skyline.png" alt="Nissan Skyline azul en un entorno urbano" loading="lazy">
+				</figure>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer" id="contacto">
+		<div class="footer-inner">
+			<div>
+				<p class="section-kicker">Contacto</p>
+				<h2>Hablemos de tu próximo auto</h2>
+				<p class="footer-text">Atención personalizada para cotizaciones, reservas y asesoría de compra.</p>
+			</div>
+
+			<address class="contact-card">
+				<p><strong>Fono:</strong> +56 9 1234 5678</p>
+				<p><strong>Email:</strong> contacto@tuautoprime.cl</p>
+				<p><strong>Dirección:</strong> Av. Principal 1234, Santiago, Chile</p>
+				<p><strong>GitHub:</strong> <a href="https://github.com/Ambidiestro/Eva-1-Programaci-n-Front-End---Pagina-web-de-autos" target="_blank" rel="noreferrer noopener">Repositorio del proyecto</a></p>
+			</address>
+		</div>
+	</footer>
+</body>
+</html>
